@@ -1,2 +1,0 @@
-# asset-management
-Asset managment
