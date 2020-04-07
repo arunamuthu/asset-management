@@ -21,6 +21,10 @@ from django.conf.urls.static import static
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'^file/', include('file_app.urls')),
+    url(r'^image/', include('rotate.urls')),
+    url(r'^image/', include('resize.urls')),
+    url(r'^image/', include('crop.urls')),
+    url(r'^image/', include('reduce_quality.urls')),
 ]
 
 if settings.DEBUG:
